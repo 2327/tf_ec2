@@ -1,0 +1,7 @@
+*.tfstate*
+.terraform
+.idea
+_*
+*.tf_
+*._tf_
+

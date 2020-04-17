@@ -1,0 +1,12 @@
+[Unit]
+Description=Mount Prometheus data directory
+Before=local-fs.target
+
+[Mount]
+What=/dev/xvdo
+Where=/var/lib/prometheus
+Type=xfs
+
+[Install]
+WantedBy=local-fs.target
+
